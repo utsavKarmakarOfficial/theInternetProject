@@ -1,0 +1,5 @@
+tests\addRemoveFeature\AddRemoveTests.class
+tests\checkBoxFeature\CheckBoxTests.class
+pages\CheckBoxPage.class
+pages\AddRemoveElementPage.class
+pages\HomePage.class

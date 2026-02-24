@@ -2,8 +2,6 @@ package listeners;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.testng.ISuite;
-import org.testng.ISuiteListener;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -15,14 +13,15 @@ import driver.DriverFactory;
 import reports.ExtentManager;
 import reports.ExtentTestManager;
 
-public class TestListener implements ITestListener,ISuiteListener{
+public class TestListener implements ITestListener{
     
 	private static ExtentReports reports = ExtentManager.getInstance();
 	
 	@Override
 	public void onTestStart(ITestResult result) {
-		ExtentTest test = reports.createTest(result.getMethod().getMethodName());
-		ExtentTestManager.setTest(test);
+	    System.out.println("Listener triggered for: " + result.getMethod().getMethodName());
+	    ExtentTest test = reports.createTest(result.getMethod().getMethodName());
+	    ExtentTestManager.setTest(test);
 	}
 	
 	@Override
@@ -47,8 +46,8 @@ public class TestListener implements ITestListener,ISuiteListener{
 	}
 	
 
-    @Override
-    public void onFinish(ISuite suite) {
-        reports.flush();
-    }
+	@Override
+	public void onFinish(ITestContext context) {
+	    reports.flush();
+	}
 }

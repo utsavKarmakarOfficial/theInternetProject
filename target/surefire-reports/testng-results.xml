@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-24T11:19:01 IST" name="Automation tests" finished-at="2026-02-24T11:22:44 IST" duration-ms="222894">
+    <groups>
+    </groups>
+    <test started-at="2026-02-24T11:19:01 IST" name="chromeTest" finished-at="2026-02-24T11:22:44 IST" duration-ms="222894">
+      <class name="tests.addRemoveFeature.AddRemoveTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:19:01 IST" name="setup" finished-at="2026-02-24T11:19:23 IST" duration-ms="21565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:19:23 IST" name="initPages" finished-at="2026-02-24T11:19:23 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="shoulAddMultipleElements()[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:19:23 IST" name="shoulAddMultipleElements" finished-at="2026-02-24T11:19:26 IST" duration-ms="2982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoulAddMultipleElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:19:26 IST" name="tearDown" finished-at="2026-02-24T11:19:26 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:19:26 IST" name="setup" finished-at="2026-02-24T11:19:32 IST" duration-ms="6221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:19:32 IST" name="initPages" finished-at="2026-02-24T11:19:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="shouldAddOneElement()[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:19:32 IST" name="shouldAddOneElement" finished-at="2026-02-24T11:19:34 IST" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddOneElement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:19:34 IST" name="tearDown" finished-at="2026-02-24T11:19:34 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:19:34 IST" name="setup" finished-at="2026-02-24T11:19:47 IST" duration-ms="12871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:19:47 IST" name="initPages" finished-at="2026-02-24T11:19:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="shouldRemoveAllElements()[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:19:47 IST" name="shouldRemoveAllElements" finished-at="2026-02-24T11:20:18 IST" duration-ms="31346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRemoveAllElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:20:18 IST" name="tearDown" finished-at="2026-02-24T11:20:19 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:20:19 IST" name="setup" finished-at="2026-02-24T11:20:37 IST" duration-ms="18006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:20:37 IST" name="initPages" finished-at="2026-02-24T11:20:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="shouldRemoveOneAmongMany()[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:20:37 IST" name="shouldRemoveOneAmongMany" finished-at="2026-02-24T11:20:40 IST" duration-ms="2938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRemoveOneAmongMany -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:20:40 IST" name="tearDown" finished-at="2026-02-24T11:20:40 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:20:40 IST" name="setup" finished-at="2026-02-24T11:20:55 IST" duration-ms="15359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:20:55 IST" name="initPages" finished-at="2026-02-24T11:20:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="shouldRemoveOneELement()[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:20:55 IST" name="shouldRemoveOneELement" finished-at="2026-02-24T11:20:57 IST" duration-ms="1862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRemoveOneELement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.addRemoveFeature.AddRemoveTests@312aa7c]" started-at="2026-02-24T11:20:57 IST" name="tearDown" finished-at="2026-02-24T11:20:57 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.addRemoveFeature.AddRemoveTests -->
+      <class name="tests.checkBoxFeature.CheckBoxTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:20:57 IST" name="setup" finished-at="2026-02-24T11:21:09 IST" duration-ms="11667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:21:09 IST" name="initPages" finished-at="2026-02-24T11:21:09 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="areBothCheckboxesSelected()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:21:09 IST" name="areBothCheckboxesSelected" finished-at="2026-02-24T11:21:10 IST" duration-ms="1426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- areBothCheckboxesSelected -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:21:10 IST" name="tearDown" finished-at="2026-02-24T11:21:11 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:21:11 IST" name="setup" finished-at="2026-02-24T11:21:28 IST" duration-ms="17013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:21:28 IST" name="initPages" finished-at="2026-02-24T11:21:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="areBothCheckboxesUnchecked()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:21:28 IST" name="areBothCheckboxesUnchecked" finished-at="2026-02-24T11:21:29 IST" duration-ms="1697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- areBothCheckboxesUnchecked -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:21:29 IST" name="tearDown" finished-at="2026-02-24T11:21:30 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:21:30 IST" name="setup" finished-at="2026-02-24T11:21:40 IST" duration-ms="10411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:21:40 IST" name="initPages" finished-at="2026-02-24T11:21:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="checkDefaultState()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:21:40 IST" name="checkDefaultState" finished-at="2026-02-24T11:21:41 IST" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDefaultState -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:21:41 IST" name="tearDown" finished-at="2026-02-24T11:21:41 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:21:41 IST" name="setup" finished-at="2026-02-24T11:21:53 IST" duration-ms="12121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:21:53 IST" name="initPages" finished-at="2026-02-24T11:21:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="doesREfreshKeepSanity()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:21:53 IST" name="doesREfreshKeepSanity" finished-at="2026-02-24T11:21:55 IST" duration-ms="1714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doesREfreshKeepSanity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:21:55 IST" name="tearDown" finished-at="2026-02-24T11:21:55 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:21:55 IST" name="setup" finished-at="2026-02-24T11:22:10 IST" duration-ms="14603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:22:10 IST" name="initPages" finished-at="2026-02-24T11:22:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="isCheckBox1Checked()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:22:10 IST" name="isCheckBox1Checked" finished-at="2026-02-24T11:22:12 IST" duration-ms="1639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCheckBox1Checked -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:22:12 IST" name="tearDown" finished-at="2026-02-24T11:22:12 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:22:12 IST" name="setup" finished-at="2026-02-24T11:22:29 IST" duration-ms="17586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:22:29 IST" name="initPages" finished-at="2026-02-24T11:22:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="isCheckBox1UncheckedAgain()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:22:29 IST" name="isCheckBox1UncheckedAgain" finished-at="2026-02-24T11:22:31 IST" duration-ms="1913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCheckBox1UncheckedAgain -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:22:31 IST" name="tearDown" finished-at="2026-02-24T11:22:32 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:22:32 IST" name="setup" finished-at="2026-02-24T11:22:43 IST" duration-ms="11088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:22:43 IST" name="initPages" finished-at="2026-02-24T11:22:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="isCheckBox2Unchecked()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:22:43 IST" name="isCheckBox2Unchecked" finished-at="2026-02-24T11:22:44 IST" duration-ms="1391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCheckBox2Unchecked -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.checkBoxFeature.CheckBoxTests@4b520ea8]" started-at="2026-02-24T11:22:44 IST" name="tearDown" finished-at="2026-02-24T11:22:44 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.checkBoxFeature.CheckBoxTests -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Automation tests -->
+</testng-results>

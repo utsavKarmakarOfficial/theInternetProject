@@ -11,9 +11,7 @@
        <parameter name = "browser" value = "chrome"/>
            <classes>
                <class name = "tests.addRemoveFeature.AddRemoveTests"/>
-               <class
-               	name="tests.checkBoxFeature.CheckBoxTests">
-</class>
+               <class name="tests.checkBoxFeature.CheckBoxTests"/>
            </classes>
        </test>
 </suite>
