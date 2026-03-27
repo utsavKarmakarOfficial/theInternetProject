@@ -7,18 +7,15 @@
   <test thread-count="2" parallel="tests" name="chromeTest(failed)" verbose="2">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="tests.checkBoxFeature.CheckBoxTests">
+      <class name="tests.fileDownloadFeature.FileDownloadTests">
         <methods>
-          <include name="doesREfreshKeepSanity"/>
-          <include name="isCheckBox1UncheckedAgain"/>
-          <include name="initPages"/>
-          <include name="areBothCheckboxesSelected"/>
-          <include name="areBothCheckboxesUnchecked"/>
-          <include name="isCheckBox2Unchecked"/>
-          <include name="checkDefaultState"/>
-          <include name="isCheckBox1Checked"/>
+          <include name="setup"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="verifyFileDownloadByIndex"/>
+          <include name="verifyFileDownloadByName"/>
         </methods>
-      </class> <!-- tests.checkBoxFeature.CheckBoxTests -->
+      </class> <!-- tests.fileDownloadFeature.FileDownloadTests -->
     </classes>
   </test> <!-- chromeTest(failed) -->
 </suite> <!-- Failed suite [Automation tests] -->

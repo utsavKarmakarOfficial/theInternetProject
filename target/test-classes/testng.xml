@@ -10,8 +10,8 @@
        <test name = "chromeTest">
        <parameter name = "browser" value = "chrome"/>
            <classes>
-               <class name = "tests.addRemoveFeature.AddRemoveTests"/>
-               <class name="tests.checkBoxFeature.CheckBoxTests"/>
+              
+               <class name="tests.fileDownloadFeature.FileDownloadTests"/>
            </classes>
        </test>
 </suite>
